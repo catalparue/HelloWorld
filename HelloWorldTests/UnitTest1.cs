@@ -1,13 +1,12 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using HelloWorld;
+﻿using HelloWorld;
+using NUnit.Framework;
 
 namespace HelloWorldTests
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {
             Assert.AreEqual("Hello World", Program.CreateMessage());

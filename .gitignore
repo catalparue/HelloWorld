@@ -1,1 +1,7 @@
 .vs/
+*.dll
+*.cache
+*.pdb
+HelloWorldTests/bin/Debug/HelloWorld.exe
+HelloWorld/obj/
+HelloWorldTests/obj/
